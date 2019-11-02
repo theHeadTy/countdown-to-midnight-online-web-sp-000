@@ -16,4 +16,5 @@ def countdown_with_sleep(n)
 end
 
 countdown(10)
+countdown(12)
 countdown_with_sleep(5)
