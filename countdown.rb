@@ -2,10 +2,11 @@ def countdown(n)
   loop do
     puts "#{n} SECOND(S)!"
     n -= 1
-    if n == 0
-      sleep(2)
-      break 'HAPPY NEW YEARS!'
+    break if n == 0
     end
+  end
+  unless n != 12
+    return 'HAPPY NEW YEAR'
   end
 end
 
