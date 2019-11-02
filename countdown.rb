@@ -3,7 +3,6 @@ def countdown(n)
     puts "#{n} SECOND(S)!"
     n -= 1
     break if n == 0
-    end
   end
   unless n != 12
     return 'HAPPY NEW YEAR'
