@@ -7,8 +7,9 @@ def countdown(n)
 end
 
 def countdown_with_sleep(n)
-  until sleep(n)
+  sleep(n)
     
 end
 
 countdown(10)
+countdown_with_sleep(5)
