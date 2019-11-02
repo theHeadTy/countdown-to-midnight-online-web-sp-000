@@ -5,9 +5,6 @@ def countdown(n)
     n -= 1
     break if n == 0
   end
-  unless n != 12
-    return 'HAPPY NEW YEAR'
-  end
 end
 
 def countdown_with_sleep(n)
