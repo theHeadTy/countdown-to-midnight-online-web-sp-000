@@ -1,7 +1,9 @@
 def countdown(n)
   
   unless n == 12
-    puts ''
+    return 'HAPPY NEW YEAR!'
+  end
+  
   loop do
     puts "#{n} SECOND(S)!"
     n -= 1
